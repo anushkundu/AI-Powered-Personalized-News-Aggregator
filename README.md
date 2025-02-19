@@ -1,4 +1,4 @@
-as# AI-Powered-Personalized-News-Aggregator
+# AI-Powered-Personalized-News-Aggregator
 
 Objective
 
