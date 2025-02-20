@@ -5,12 +5,19 @@ The goal of this project is to build an AI-powered Personalized News Aggregator 
 
 ## Key Tasks Performed
 1. **News Scraping & Data Collection**
+   
 •	API Used: NewsAPI.org
+
 •	Categories Covered: Technology, Sports, Business
+
 •	Process:
+
     o	Fetches top headlines for each category.
+    
     o	Extracts key information like title, description, and content.
+    
     o	Saves the news data into a structured CSV file for further processing.
+    
 
 2️. Filling Full Content for Each Article
 •	Challenge: Some news sources provide incomplete or truncated content.
