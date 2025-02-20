@@ -20,15 +20,22 @@ The goal of this project is to build an AI-powered Personalized News Aggregator 
     o	Saves the news data into a structured CSV file for further processing.
     
 
-2️. Filling Full Content for Each Article
-•	Challenge: Some news sources provide incomplete or truncated content.
-•	Solution:
+**Filling Full Content for Each Article** 
+
+•	**Challenge:** Some news sources provide incomplete or truncated content.
+
+•	**Solution:**
+
 o	Implemented web scraping (using BeautifulSoup) to fetch full content for articles missing details.
+
 o	Integrated fallback mechanisms to ensure complete and accurate data before summarization.
 
-3️. News Summarization
-•	Model Used: facebook/bart-large-cnn (BERT-based text summarization)
-•	Process:
+**News Summarization**
+
+•	**Model Used:** facebook/bart-large-cnn (BERT-based text summarization)
+
+•	**Process:**
+
 o	Extracts relevant parts of the article content.
 o	Generates a concise summary while retaining key information.
 o	Handles missing or incomplete data gracefully.
