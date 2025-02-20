@@ -1,21 +1,58 @@
-# AI-Powered-Personalized-News-Aggregator
+# AI-Powered Personalized News Aggregator
 
-**Objective**
-
+## Objective
 The goal of this project is to build an AI-powered Personalized News Aggregator that scrapes, filters, summarizes, and recommends news articles based on user preferences. Using Natural Language Processing (NLP) and Machine Learning (ML) techniques, this system enhances user experience by providing concise, relevant, and personalized news summaries.
 
-**Key Tasks Performed**
+## Key Tasks Performed
+1. **News Scraping & Data Collection**
+•	API Used: NewsAPI.org
+•	Categories Covered: Technology, Sports, Business
+•	Process:
+    o	Fetches top headlines for each category.
+    o	Extracts key information like title, description, and content.
+    o	Saves the news data into a structured CSV file for further processing.
 
-News Scraping & Data Collection
+2️. Filling Full Content for Each Article
+•	Challenge: Some news sources provide incomplete or truncated content.
+•	Solution:
+o	Implemented web scraping (using BeautifulSoup) to fetch full content for articles missing details.
+o	Integrated fallback mechanisms to ensure complete and accurate data before summarization.
 
-API Used: NewsAPI.org
+3️. News Summarization
+•	Model Used: facebook/bart-large-cnn (BERT-based text summarization)
+•	Process:
+o	Extracts relevant parts of the article content.
+o	Generates a concise summary while retaining key information.
+o	Handles missing or incomplete data gracefully.
 
-Categories Covered: Technology, Sports, Business
+4️. Sentiment Analysis
+•	Tool Used: VADER (Valence Aware Dictionary and sEntiment Reasoner)
+•	Process:
+o	Analyzes news content to determine Positive, Neutral, or Negative sentiment.
+o	Assigns a sentiment score and labels articles accordingly.
 
-Process:
+5️. News Recommendation System
+•	Model Used: Sentence Transformers (all-MiniLM-L6-v2 for BERT embeddings)
+•	Process:
+o	Converts article summaries into vector embeddings.
+o	Computes semantic similarity using cosine similarity.
+o	Recommends similar articles based on user interests.
 
-Fetches top headlines for each category.
+Outcome & Conclusion
+Outcome
+•	Successfully built a Personalized News Aggregator that:
+o	Scrapes, summarizes, and categorizes news articles.
+o	Conducts sentiment analysis to help users gauge article tone.
+o	Uses AI-driven recommendations to suggest relevant articles based on user preferences.
+•	Provides a scalable and customizable framework for real-time news processing.
 
-Extracts key information like title, description, and content.
+Conclusion
+This project demonstrates the power of NLP and Machine Learning in delivering a tailored and enhanced news-reading experience. The combination of BERT-based summarization, sentiment analysis, and AI-driven recommendations makes the aggregator highly efficient and user-friendly. Future enhancements may include:
+•	User authentication to store personalized preferences.
+•	Topic modeling for better article categorization.
+•	Real-time notifications for breaking news updates.
+ Next Steps:
+•	Deploy the system using Streamlit for a user-friendly UI.
+•	Explore more advanced deep learning models for text analysis.
+•	Expand the news sources beyond NewsAPI for diverse coverage.
 
-Saves the news data into a structured CSV file for further processing.
