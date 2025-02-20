@@ -4,13 +4,14 @@
 The goal of this project is to build an AI-powered Personalized News Aggregator that scrapes, filters, summarizes, and recommends news articles based on user preferences. Using Natural Language Processing (NLP) and Machine Learning (ML) techniques, this system enhances user experience by providing concise, relevant, and personalized news summaries.
 
 ## Key Tasks Performed
-1. **News Scraping & Data Collection**
+
+**News Scraping & Data Collection**
    
-•	API Used: NewsAPI.org
+•	**API Used:** NewsAPI.org
 
-•	Categories Covered: Technology, Sports, Business
+•	**Categories Covered:** Technology, Sports, Business
 
-•	Process:
+•	**Process:**
 
     o	Fetches top headlines for each category.
     
