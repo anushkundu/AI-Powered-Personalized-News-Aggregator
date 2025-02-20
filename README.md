@@ -26,9 +26,9 @@ The goal of this project is to build an AI-powered Personalized News Aggregator 
 
 •	**Solution:**
 
-o	Implemented web scraping (using BeautifulSoup) to fetch full content for articles missing details.
+   o	Implemented web scraping (using BeautifulSoup) to fetch full content for articles missing details.
 
-o	Integrated fallback mechanisms to ensure complete and accurate data before summarization.
+   o	Integrated fallback mechanisms to ensure complete and accurate data before summarization.
 
 **News Summarization**
 
