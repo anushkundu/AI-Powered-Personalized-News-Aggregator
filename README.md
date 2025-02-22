@@ -84,7 +84,9 @@ The goal of this project is to build an AI-powered Personalized News Aggregator 
 This project demonstrates the power of NLP and Machine Learning in delivering a tailored and enhanced news-reading experience. The combination of BERT-based summarization, sentiment analysis, and AI-driven recommendations makes the aggregator highly efficient and user-friendly. Future enhancements may include:
 
       •	User authentication to store personalized preferences.
+      
       •	Topic modeling for better article categorization.
+      
       •	Real-time notifications for breaking news updates.
 
  Next Steps:
