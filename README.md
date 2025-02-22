@@ -36,15 +36,22 @@ The goal of this project is to build an AI-powered Personalized News Aggregator 
 
 •	**Process:**
 
-o	Extracts relevant parts of the article content.
-o	Generates a concise summary while retaining key information.
-o	Handles missing or incomplete data gracefully.
+      o	Extracts relevant parts of the article content.
+      
+      o	Generates a concise summary while retaining key information.
+      
+      o	Handles missing or incomplete data gracefully.
+      
 
-4️. Sentiment Analysis
-•	Tool Used: VADER (Valence Aware Dictionary and sEntiment Reasoner)
-•	Process:
-o	Analyzes news content to determine Positive, Neutral, or Negative sentiment.
-o	Assigns a sentiment score and labels articles accordingly.
+**Sentiment Analysis**
+
+•	**Tool Used:** VADER (Valence Aware Dictionary and sEntiment Reasoner)
+
+•	**Process:**
+
+      o	Analyzes news content to determine Positive, Neutral, or Negative sentiment.
+      
+      o	Assigns a sentiment score and labels articles accordingly.
 
 5️. News Recommendation System
 •	Model Used: Sentence Transformers (all-MiniLM-L6-v2 for BERT embeddings)
