@@ -66,13 +66,18 @@ The goal of this project is to build an AI-powered Personalized News Aggregator 
       o	Recommends similar articles based on user interests.
       
 
-Outcome & Conclusion
-Outcome
-•	Successfully built a Personalized News Aggregator that:
-o	Scrapes, summarizes, and categorizes news articles.
-o	Conducts sentiment analysis to help users gauge article tone.
-o	Uses AI-driven recommendations to suggest relevant articles based on user preferences.
-•	Provides a scalable and customizable framework for real-time news processing.
+## Outcome & Conclusion
+### Outcome
+**Successfully built a Personalized News Aggregator that:**
+
+      o	Scrapes, summarizes, and categorizes news articles.
+      
+      o	Conducts sentiment analysis to help users gauge article tone.
+      
+      o	Uses AI-driven recommendations to suggest relevant articles based on user preferences.
+      
+      o	Provides a scalable and customizable framework for real-time news processing.
+
 
 Conclusion
 This project demonstrates the power of NLP and Machine Learning in delivering a tailored and enhanced news-reading experience. The combination of BERT-based summarization, sentiment analysis, and AI-driven recommendations makes the aggregator highly efficient and user-friendly. Future enhancements may include:
