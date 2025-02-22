@@ -90,7 +90,10 @@ This project demonstrates the power of NLP and Machine Learning in delivering a 
       •	Real-time notifications for breaking news updates.
 
  Next Steps:
+ 
       •	Deploy the system using Streamlit for a user-friendly UI.
+      
       •	Explore more advanced deep learning models for text analysis.
+      
       •	Expand the news sources beyond NewsAPI for diverse coverage.
 
