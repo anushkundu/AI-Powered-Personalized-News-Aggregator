@@ -55,11 +55,16 @@ The goal of this project is to build an AI-powered Personalized News Aggregator 
 
 **News Recommendation System**
 
-•	Model Used: Sentence Transformers (all-MiniLM-L6-v2 for BERT embeddings)
-•	Process:
-o	Converts article summaries into vector embeddings.
-o	Computes semantic similarity using cosine similarity.
-o	Recommends similar articles based on user interests.
+•	**Model Used:** Sentence Transformers (all-MiniLM-L6-v2 for BERT embeddings)
+
+•	**Process:**
+
+      o	Converts article summaries into vector embeddings.
+      
+      o	Computes semantic similarity using cosine similarity.
+      
+      o	Recommends similar articles based on user interests.
+      
 
 Outcome & Conclusion
 Outcome
