@@ -53,7 +53,8 @@ The goal of this project is to build an AI-powered Personalized News Aggregator 
       
       o	Assigns a sentiment score and labels articles accordingly.
 
-5️. News Recommendation System
+**News Recommendation System**
+
 •	Model Used: Sentence Transformers (all-MiniLM-L6-v2 for BERT embeddings)
 •	Process:
 o	Converts article summaries into vector embeddings.
